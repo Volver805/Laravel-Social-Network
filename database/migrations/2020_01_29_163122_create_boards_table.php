@@ -18,6 +18,21 @@ class CreateBoardsTable extends Migration
             $table->string('name');
             $table->string('color');
         });
+        DB::table('boards')->insert(
+            array(
+                array("name"=>"General",
+                "color" => "green"), 
+                array(
+                    "name"=>"Web Development",
+                    "color" => "blue"
+                ),
+                array(
+                    "name"=>"Data Science & Visualization ",
+                    "color" => "orange"
+                )
+            )
+        );
+        
     }
 
     /**
