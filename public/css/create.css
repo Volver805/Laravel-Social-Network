@@ -1,0 +1,98 @@
+.create {
+  width: 90%;
+  background-color: white;
+  height: 540px;
+  margin: 0 auto;
+  max-width: 1300px;
+  margin-top: 3%;
+}
+
+.create .container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+.create .container h1 {
+  margin-bottom: 10px;
+}
+
+.create .container .form-field {
+  width: 94%;
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+  background-color: #DFDFDF;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 0 3%;
+  font-size: 16px;
+  font-family: 'lato';
+  font-weight: bold;
+  color: #202020;
+}
+
+.create .container .form-field::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: 'lato';
+  font-weight: bold;
+  color: #757575;
+}
+
+.create .container .form-field:-ms-input-placeholder {
+  font-size: 16px;
+  font-family: 'lato';
+  font-weight: bold;
+  color: #757575;
+}
+
+.create .container .form-field::-ms-input-placeholder {
+  font-size: 16px;
+  font-family: 'lato';
+  font-weight: bold;
+  color: #757575;
+}
+
+.create .container .form-field::placeholder {
+  font-size: 16px;
+  font-family: 'lato';
+  font-weight: bold;
+  color: #757575;
+}
+
+.create .container #body {
+  resize: none;
+  height: 300px;
+  padding-top: 20px;
+  line-height: 20px;
+}
+
+.create .container #post-button {
+  width: 100px;
+  height: 32px;
+  color: white;
+  font-weight: bold;
+  background: #2F80ED;
+  border-radius: 7px;
+  border: 0;
+  float: right;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+  .create h1 {
+    font-size: 20px;
+  }
+  .create .container #post-button {
+    width: 100%;
+    height: 34px;
+  }
+}
+
+.error {
+  color: #EB5757;
+}
+/*# sourceMappingURL=create.css.map */
