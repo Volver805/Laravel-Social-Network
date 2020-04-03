@@ -1,5 +1,4 @@
 <?php
-require __DIR__.'/../vendor/autoload.php';
 
 /**
  * Laravel - A PHP Framework For Web Artisans
