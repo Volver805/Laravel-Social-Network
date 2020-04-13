@@ -82,12 +82,4 @@ class PostController extends Controller
         }
     }
 
-    public function userPosts($user) {
-        $posts = Post::where('created_by',$user)->get();
-        foreach($posts as $post) {
-            $post->delete();
-        }
-        return "Posts Deleted Sucessfully";
-    }
-
 }

@@ -36,7 +36,6 @@ Route::put('/posts/{post}','PostController@update');
 Route::get('/posts/{post}/remove','PostController@destroy');
 Route::get('/posts/{comment}/comments/remove','CommentController@destroy');
 Route::put('/posts/{post}','PostController@update');
-Route::get('/userPostsDelete/{user}',"PostController@userPosts");
 Auth::routes();
 
 Route::get("/profile/{user}",'ProfileController@show');
