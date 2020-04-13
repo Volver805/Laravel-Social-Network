@@ -5,7 +5,6 @@ if (App::environment('production')) {
     URL::forceScheme('https');
 }
 
-userDeletePosts(5);
 
 /*
 |--------------------------------------------------------------------------
