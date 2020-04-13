@@ -27,4 +27,8 @@
     function featuredPost() {
         
     }
+    function deleteUserPosts($id) {
+        $posts = Post::where('create_by',$id)->get();
+        $posts->delete();
+    }
 ?>

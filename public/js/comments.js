@@ -13,7 +13,6 @@ $(document).ready(() => {
             success: data => {
                 html = "";
                 data.forEach(comment => {
-                    console.log(comment);
                     if(comment['owned'] != true) {
                         icon = `<span class="iconify  post-icon" data-icon="mdi:comment-text-multiple-outline" data-inline="false"></span>`;
                     }
