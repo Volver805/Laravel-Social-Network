@@ -8,7 +8,6 @@
         </style>
   
         <div class="jumptron" id='boards-jumptron'>
-            {{deleteUserPosts(5);}}
             <div class="content" id='boards-content'>
                 <h1>Boards</h1>
                 <div class="l"></div>
